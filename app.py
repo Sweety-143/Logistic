@@ -1,6 +1,6 @@
 import pickle
 import streamlit as st
-pickle_in=open('Logistic.pkl','rb')
+pickle_in=open('Iris.pkl','rb')
 model=pickle.load(pickle_in)
 a=st.number_input('Enter sepal width')
 b=st.number_input('Enter sepal length')
